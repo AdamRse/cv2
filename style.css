@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,16 +7,21 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: #000;
+    background-color: #ebe9ff;
 
     --primary-bg: #eee;
 }
 #page{
     width: 210mm;
-    max-height: 29.7mm;
+    height: 297mm;
     background-color: #eef;
     font-size: 0;
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Alata", serif;
+    font-weight: 200;
+    font-style: normal;
 }
 #partLeft{
     font-size: 1rem;
@@ -28,11 +34,18 @@ body{
     background-color: var(--primary-bg);
 }
 
-.paddingTop{
-    padding-top: 30mm;
+section{
+    padding: 8% 0;
 }
-.paddingBottom{
-    padding-bottom: 30mm;
+h2{
+    font-size: 350%;
+}
+h2 .line{
+    display: block;
+    text-align: left;
+}
+h2 .line2{
+    text-align: right;
 }
 .title{
     width: 100%;
