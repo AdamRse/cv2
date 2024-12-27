@@ -12,9 +12,9 @@ body{
 
     --primary-bg: #eee;
     --pr-padding-x: 0 4%;
+    --pl-padding-x: 0 4%;
 }
 #page{
-    margin-top: 38px;
     width: 210mm;
     height: 297mm;
     background-color: #eef;
@@ -40,7 +40,7 @@ body{
 }
 
 section{
-    padding: 12% 0;
+    padding: 8% 0;
 }
 h2{
     font-size: 300%;
@@ -98,11 +98,11 @@ h5{
     font-size: 3.4mm;
 }
 #infos{
-    padding: 2% 2%;
-    margin-top: 25%;
+    padding: var(--pl-padding-x);
+    margin-top: 12.7%;
 }
 #infos .line{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -112,8 +112,8 @@ h5{
     margin-right: 5%;
 }
 #infos .line .icon{
-    height: 10mm;
-    width: 10mm;
+    height: 8mm;
+    width: 8mm;
     border-radius: 50%;
     background-color: var(--primary-bg);
     display: flex;
@@ -160,4 +160,44 @@ h5{
     display: block;
 }
 #activities p{
+}
+#education{
+    padding: var(--pl-padding-x);
+    text-align: right;
+    margin-top: 10.5%;
+}
+#education .unit{
+    margin-top: 15%;
+}
+#education .unit .sub{
+    font-size: 3mm;
+    margin-top: 1%;
+}
+#education .unit .period{
+    font-size: 3.5mm;
+    letter-spacing: 0.5mm;
+    margin-top: 1%;
+}
+#skills{
+    margin-top: 26.5%;
+    padding: var(--pl-padding-x);
+    text-align: right;
+}
+#skills .icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: end;
+    margin-top: 5%;
+}
+#skills .icons svg{
+    height: 13mm;
+    width: 13mm;
+    margin: 5% 0;
+    fill: #000;
+}
+#skills .language{
+    letter-spacing: .5mm;
+    font-size: 3.5mm;
+    margin-top: 3%;
 }
