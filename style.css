@@ -11,8 +11,10 @@ body{
     background-color: #111;
 
     --primary-bg: #eee;
+    --pr-padding-x: 0 4%;
 }
 #page{
+    margin-top: 38px;
     width: 210mm;
     height: 297mm;
     background-color: #eef;
@@ -32,18 +34,18 @@ body{
     background-color: #fff;
 }
 #partRight{
-    font-size: 1rem;
+    font-size: 3.4mm;
     width: 60%;
     background-color: var(--primary-bg);
 }
 
 section{
-    padding: 8% 0;
+    padding: 12% 0;
 }
 h2{
     font-size: 300%;
     font-weight: lighter;
-    padding: 0 2%;
+    padding: var(--pr-padding-x);
     line-height: 100%;
     letter-spacing: 1mm;
 }
@@ -54,10 +56,20 @@ h2 .line2{
     padding-left: 15%;
 }
 h3{
-    font-size: 120%;
+    font-size: 4.5mm;
     font-weight: lighter;
     letter-spacing: 1mm;
     text-transform: uppercase;
+}
+h4{
+    font-size: 4mm;
+    letter-spacing: 0.5mm;
+    font-weight: lighter;
+}
+h5{
+    text-transform: uppercase;
+    letter-spacing: 1mm;
+    font-weight: lighter;
 }
 .title{
     width: 100%;
@@ -76,13 +88,14 @@ h3{
 .title .text{
     display: inline-block;
     padding-left: 3%;
-    font-size: 1.3rem;
+    font-size: 5mm;
     font-weight: lighter;
     line-height: 100%;
 }
 .description{
-    padding-right:28%;
+    padding-right:36%;
     text-align: right;
+    font-size: 3.4mm;
 }
 #infos{
     padding: 2% 2%;
@@ -113,8 +126,38 @@ h3{
 }
 
 #summary{
-    margin: 2% 10% 0 2%;
+    padding: var(--pr-padding-x);
+    margin-top: 5%;
     text-align: justify;
     letter-spacing: 0.5mm;
-    font-size: 78%;
+}
+#experiences{
+    margin: var(--pr-padding-x);
+    margin-top: 8%;
+}
+#experiences h4{
+    margin-bottom: 1%;
+}
+#experiences .unit{
+    margin-top: 5%;
+}
+#experiences .unit h5{
+    display: flex;
+    justify-content: space-between;
+}
+#experiences .unit li{
+    margin-left: 4%;
+}
+#activities{
+    padding: var(--pr-padding-x);
+    margin-top: 8%;
+    line-height: 100%;
+}
+#activities b{
+    font-weight: bolder;
+    font-size: 4mm;
+    margin-top: 4%;
+    display: block;
+}
+#activities p{
 }

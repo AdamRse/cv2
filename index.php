@@ -13,7 +13,7 @@ $yearsold = floor((time() - 641685600) / 31556926);
 
 <body>
     <div id="page">
-        <section id="partLeft" class="paddingTop">
+        <section id="partLeft">
             <div class="title">
                 <div class="decorationBlock"></div>
                 <div class="text">Développeur web</div>
@@ -53,7 +53,7 @@ $yearsold = floor((time() - 641685600) / 31556926);
                 </div>
             </div>
         </section>
-        <section id="partRight" class="paddingTop">
+        <section id="partRight">
             <h2><span class="line">ADAM</span><span class="line line2">ROUSSELLE</span></h2>
             <p class="description">3 mai 1990 (<?= $yearsold ?> ans)</p>
             <div id="summary">
@@ -63,6 +63,59 @@ $yearsold = floor((time() - 641685600) / 31556926);
                     <br />
                     J’ai une grande appétence pour l’apprentissage !
                 </p>
+            </div>
+            <div id="experiences">
+                <h3>EXPERIENCES</h3>
+                <div class="unit">
+                    <h4>Stage</h4>
+                    <h5><span class="desc">vestiaire officiel (roanne - 42)</span><span class="dt">2024</span></h5>
+                    <ul>
+                        <li>Audit de l’existant</li>
+                        <li>Chef de projet, Application de la méthode Agile</li>
+                        <li>Conception d’un front-end Angular</li>
+                        <li>Conception d’un back-end Laravel</li>
+                        <li>Conception de maquette Figma</li>
+                        <li>Conception de base de données Mysql</li>
+                    </ul>
+                </div>
+                <div class="unit">
+                    <h4>Auto-entrepreneur</h4>
+                    <h5><span class="desc">D'Adam et DEV'</span><span class="dt">2016-Aujourd'hui</span></h5>
+                    <ul>
+                        <li>Maîtrise complète du cycle de développement</li>
+                        <li>Code from scratch et maîtrise des outils de développement</li>
+                        <li>Utilisation avancée des architectures Unix</li>
+                        <li>Configuration avancée du serveur DNS</li>
+                        <li>Bonnes pratiques de développement, optimisation du code, recherche et résolution de bugs</li>
+                        <li>Autonomie</li>
+                        <li>Gestion des communications client</li>
+                    </ul>
+                </div>
+                <div class="unit">
+                    <h4>Technicien Help-Desk</h4>
+                    <h5><span class="desc">Tuanis (Limonest - 42)</span><span class="dt">2018-2020</span></h5>
+                    <ul>
+                        <li>Gestion du flux d’appels</li>
+                        <li>Gestion d’incidents à fort impact</li>
+                        <li>Application des consignes et aide à l’optimisation de résolution</li>
+                        <li>Application des stratégies de communication clients</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="activities">
+                <h3>ACTIVITÉS ET LOISIRS</h3>
+                <div>
+                    <b>Science</b>
+                    <p>Grande apétence pour la vulgarisation scientifique</p>
+                </div>
+                <div>
+                    <b>Musique</b>
+                    <p>Pratique occasionnelle du saxophone, de la batterie, et de la guitare basse</p>
+                </div>
+                <div>
+                    <b>Jeux Vidéo</b>
+                    <p>Joueur régulier</p>
+                </div>
             </div>
         </section>
     </div>
