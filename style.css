@@ -194,7 +194,7 @@ h5{
     height: 13mm;
     width: 13mm;
     margin: 5% 0;
-    fill: #000;
+    filter: grayscale(100%);
 }
 #skills .language{
     letter-spacing: .5mm;

@@ -6,7 +6,7 @@ Partage libre.
 Les skils sont listés dans la div ```#skills-list``` sous forme de SVGs.
 - Pour ajouter un nouveau skills, ajouter le SVG à ```#skills-list```, en ajoutant un identifiant commençant pas ```skill-...```.
     - La taille de la viewbox n'a pas besoin d'être modifiée.
-    - Les couleurs ne sont pas automatiquement noire, il faudra les modifier dans les tags *fill*.
+    - Les couleurs sont automatiquement traduites en niveau de gris.
     Par exemple pour rajouter le skill *HTML*, copier le logo en SVG et le coller à la suite
     ```html
         <div id="skills-list" style="display: none;">
